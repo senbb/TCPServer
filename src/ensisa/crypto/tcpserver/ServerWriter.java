@@ -42,7 +42,6 @@ public class ServerWriter {
             e.printStackTrace();
         }
     }
-
     private void writeLong(long v) {
         try {
             output.writeLong(v);
